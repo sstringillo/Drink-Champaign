@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_drink_tracker"
+        android:icon="@drawable/ic_drink_tracker_coral_24dp"
+        android:title="@string/title_drink_tracker" />
+
+    <item
+        android:id="@+id/navigation_deal_locator"
+        android:icon="@drawable/ic_deal_locator_coral_24dp"
+        android:title="@string/title_deal_locator_text" />
+
+    <item
+        android:id="@+id/navigation_faq"
+        android:icon="@drawable/ic_faq_coral_24dp"
+        android:title="@string/title_faq_text" />
+</menu>

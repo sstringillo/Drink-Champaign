@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_drink_tracker">
+
+    <fragment
+        android:id="@+id/navigation_drink_tracker"
+        android:name="ftstp.drinkchampaign.ui.drink_tracker.DrinkTrackerFragment"
+        android:label="@string/title_drink_tracker"
+        tools:layout="@layout/fragment_drink_tracker" />
+
+    <fragment
+        android:id="@+id/navigation_deal_locator"
+        android:name="ftstp.drinkchampaign.ui.deal_locator.DealLocatorFragment"
+        android:label="@string/title_deal_locator_text"
+        tools:layout="@layout/fragment_deal_locator" />
+
+    <fragment
+        android:id="@+id/navigation_faq"
+        android:name="ftstp.drinkchampaign.ui.faq.FaqFragment"
+        android:label="@string/title_faq_text"
+        tools:layout="@layout/fragment_faq" />
+</navigation>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:gravity="center"
+        android:text="@string/title_deal_locator_text"
+        android:textColor="@color/colorText2"
+        android:textAllCaps="true"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/search_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+        <SearchView
+            android:id="@+id/searchBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:backgroundTintMode="add"
+            android:iconifiedByDefault="false"
+            android:maxWidth="250sp"
+            android:queryHint="@string/search_help"
+            android:textColor="@color/colorAccent2" />
+
+        <!--In order to make the "sort by" static, you need to set the first parameter as disabled in the java file
+        https://stackoverflow.com/questions/37019941/how-to-add-a-hint-in-spinner-in-xml-->
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:entries="@array/deal_locator_sort"
+            android:gravity="center"
+            android:outlineSpotShadowColor="@color/colorText"
+            android:textAlignment="center"
+            android:textColor="@color/colorText" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/store_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- "Mark Favorite", should appear as my_info_menu button if possible -->
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/home_coral_64dp"
+        android:title="@string/title_drink_tracker"
+        app:showAsAction="ifRoom|withText" />
+</menu>

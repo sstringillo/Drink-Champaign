@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Drink Champaign</string>
+    <!-- DRINK TRACKER STRINGS -->
+    <string name="title_drink_tracker">Drink Tracker</string>
+    <string name="pls_input">Please input your info to use this feature.</string>
+    <string name="go_to_info">Go To My Info</string>
+    <!-- FAQ STRINGS -->
+    <string name="title_faq_text">FAQs</string>
+    <string name="subtitle_text1">What Is One Drink?</string>
+    <string name="subtitle_text2">How To Input/ What Are Mixed Drinks?</string>
+    <string name="subtitle_text4">What Are The Local Drinking Laws?</string>
+    <string name="subtitle_text3">What Will I Be Feeling?</string>
+    <string name="content_one_drink"> = single (12oz) beer\n= single (1oz) shot\n= 1 glass (5oz) of wine</string>
+    <string name="content_single">- A single = </string>
+    <string name="content_double">- A double = </string>
+    <string name="content_triple">- A big cup/triple = </string>
+    <string name="content_mixed_drink">...</string>
+    <string name="x1">X1</string>
+    <string name="x2">X2</string>
+    <string name="x3">X3</string>
+    <string name="content_feeling">How someone feels from drinking is much more dependent on their tolerance level than their BAC.\n\nSo, if you are a frequent drinker, even though you may feel okay, your BAC could be above the legal limit for driving.</string>
+    <string name="content_laws">The legal limit for public drunkeness, drunk driving, etc. is 0.08. The Drink Tracker will change colors the closer you get to the legal limit.</string>
+    <!-- MY INFO STRINGS -->
+    <string name="title_my_info_text">My Info</string>
+    <string name="my_info_save_text">Save Info</string>
+    <string name="weight_text">WEIGHT</string>
+    <string name="female_text">Female</string>
+    <string name="male_text">Male</string>
+    <string name="other_text">Other</string>
+    <string name="sex_text">SEX</string>
+    <string-array name="my_info_units">
+        <item> LBS </item>
+        <item> KG </item>
+    </string-array>
+    <!--    DEAL LOCATOR STRINGS-->
+    <string name="title_deal_locator_text">Deal Locator</string>
+    <string-array name="deal_locator_sort">
+        <item> Distance </item>
+        <item> Popularity</item>
+        <item> Price </item>
+    </string-array>
+    <string name="search_help">ex: beer</string>
+</resources>
